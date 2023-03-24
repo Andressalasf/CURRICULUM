@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantica</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="description" content="En esta página podrás encontrar etiquetas de multimedia de html.">
+    <meta name="keywords" content="html, lenguaje, lenguaje de marcas, código html, etiquetas">
+    <meta name="author" content="Salas">
+    <meta name="application-name" content="SalasDev Skynet">
+    <meta name="generator" content="VSCode 1.74.2">
+    <meta name="description" content="En esta página podrás encontrar etiquetas sobre validacion.">
+    <meta name="keywords" content="html, lenguaje, lenguaje de marcas, código html, etiquetas">
+    <meta name="author" content="Salas">
+    <meta name="application-name" content="SalasDev Skynet">
+    <meta name="generator" content="VSCode 1.74.2">
+    <meta name="theme-color" content="#1e7bbf">
+    <meta http-equiv="refresh" content="30;url=https://manz.dev/">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+    <meta name="robots" content="index, nofollow">
+</head>
+<body>
+    <a href="../index.html">REGRESAR A LA PAGINA PRINCIPAL</a>
+    <h1 >Etiquetas de Semantica</h1>
+    <h3>Etiquetas de Fragmentos de texto</h3>
+    <p>El resultado de 24<sup>2</sup> es el valor de X<sub>a</sub>.</p>
+    <p>
+        <q cite="http://www.imdb.com/title/tt0468569/">
+          Hay hombres que solo quieren ver arder el mundo.
+        </q>
+      </p>
+      <p>
+        El término <dfn><abbr title="Kilómetro">Km</abrr></dfn> es una unidad de longitud.
+      </p>
+      <p>
+        <time datetime="2001-01-04">4 de Enero</time>
+        <data value="ESDLA3">El retorno del Rey</data>
+      </p>
+      <h3>Etiquetas de Enlaces</h3>
+      <ul>
+        <li><a rel="author" href="http://www.emezeta.com/">Emezeta</a></li>
+        <li><a href="http://lenguajecss.com/" target="_blank">LenguajeCSS</a></li>
+        <li><a href="http://pagina.com/documento.pdf" download="A-38.pdf">PDF</a></li>
+        <li><a href="http://pagina.com/documento-en.pdf" hreflang="en">PDF</a></li>
+      </ul>
+      <img src="../img/img5.jpeg">
+      <h3>Etiquetas de sección</h3>
+      <div class="articulo">
+        <h1>Título del artículo</h1>
+        <p class="intro">Este articulo incluye las etiquetas de seccion.</p>
+        <p class="contenido">En versiones anteriores a HTML5, al crear la estructura de una página,
+             normalmente utilizabamos etiquetas para ir agrupando secciones de la página. Unido a esto, ibamos añadiendo id o clases (atributos) dependiendo de nuestro interés, para que quedase más claro. Una estructura como la que menciono podría ser la siguiente</p>
+        <p class="pie">Escrito por Salas</p>
+      </div>
+      <h3>Etiquetas de seccion usando semantica</h3>
+      <article>
+        <header>
+          <h1>El amor</h1>
+          <p class="intro">El amor es el vínculo de afecto que nace de la valoración del otro e inspira el deseo de su bien.</p>
+        </header>
+        <p class="contenido">El concepto del amor es amplio y complejo. Puede referir al amor como amistad, amor romántico, amor filial, amor propio, amor místico o amor por una causa.</p>
+        <footer>
+          <p>Escrito por Salas.</p>
+        </footer>
+      </article>
+      <article class="post">
+        <p>HTML es el lenguaje con el que se define el contenido de las páginas web.</p>
+        <article class="comentario">
+          <p>Buena explicacion del tema, gracias.</p>
+        </article>
+      </article>
+      <h3>Etiqueta de Tabla</h3>
+      <table>
+        <!-- Cabecera -->
+        <tr>
+          <th>Nombre</th>
+          <!-- Celda de cabecera de la columna 1 -->
+          <th>Apellido</th>
+          <!-- Celda de cabecera de la columna 2 -->
+          <th>Correo</th>
+          <!-- Celda de cabecera de la columna 3 -->
+        </tr>
+        <!-- Primera fila -->
+        <tr>
+          <td>Andres</td>
+          <!-- Primera celda de la primera fila -->
+          <td>Felipe</td>
+          <!-- Segunda celda de la primera fila -->
+          <td>afsdf@gmail.com</td>
+          <!-- Tercera celda de la primera fila -->
+        </tr>
+        <!-- Segunda fila -->
+        <tr>
+          <td>pepito</td>
+          <!-- Primera celda de la segunda fila -->
+          <td>gomes</td>
+          <!-- Segunda celda de la segunda fila -->
+          <td>go@gmail.com</td>
+          <!-- Tercera celda de la segunda fila -->
+        </tr>
+      </table>
+      <h3>Tabla combinando celdas</h3>
+    <table>
+        <!-- ... -->
+        <tr>
+          <td colspan="3">Datos adicionales</td>
+          <!-- Abarca 3 celdas -->
+        </tr>
+        <!-- Primera fila -->
+        <tr>
+          <td>Celda 1x1</td>
+          <!-- Primera celda de la primera fila -->
+          <td>Celda 2x1</td>
+          <!-- Segunda celda de la primera fila -->
+          <td>Celda 3x1</td>
+          <!-- Tercera celda de la primera fila -->
+        </tr>
+        <!-- ... -->
+      </table>
+      <h3>Organizacion de tablas</h3>
+      <table>
+        <!-- Table footer: pie de la tabla (tfoot) -->
+        <tfoot>
+          <tr>
+            <td>Pie de tabla 1</td>
+            <td>Pie de tabla 2</td>
+          </tr>
+        </tfoot>
+        <!-- Table header: cabecera de la tabla (thead) -->
+        <thead>
+          <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+          </tr>
+        </thead>
+        <!-- Table body: cuerpo de la tabla (tbody) -->
+        <tbody>
+          <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+          </tr>
+        </tbody>
+        <!-- Leyenda o título de la tabla -->
+        <caption>
+          Título de la tabla
+        </caption>
+      </table>
+      <h3>Agrupacion de tablas</h3>
+      <table>
+        <tr>
+          <th>Columna 1</th>
+          <th>Columna 2</th>
+          <th>Columna 3</th>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+        </tr>
+        <tr>
+          <td>Data 4</td>
+          <td>Data 5</td>
+          <td>Data 6</td>
+        </tr>
+        <colgroup>
+          <col style="background:red">
+          <col span="2" style="background:yellow">
+        </colgroup>
+      </table>
+</body>
+</html>
