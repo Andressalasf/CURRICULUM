@@ -1,13 +1,13 @@
 body{
     background-color: rgb(97, 80, 80);
+    margin: 0px;
+    font
 }
-img{
-    width: 200px; /*Ancho de la imagen*/
-    height: 200px; /*Alto de la imagen*/
+img {
+    width: 200px; 
+    height: 200px; 
+}
 
-       
-    
-}
 
 tr:hover{
     background-color: rgb(173, 156, 151);
@@ -24,4 +24,62 @@ input{
  background-color: aqua;
  color: rgb(20, 153, 109); 
 }
+.formulario {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 7);
+}
+.formulario__input, .formulario__label, .formulario__submit{
+    width: 100%;
+    border: 1px solid rgba(0,0,0, 3);
+    margin-bottom: 40px;
     
+}
+.formulario__submit {
+   background: rgba(0, 0,0,0.7);
+    padding:10px 20px;
+    border: none;
+
+}
+
+.formulario__titulo {
+    text-align: center;
+    margin-top: 0;
+    color: black;
+}
+
+input:valid,
+textarea:valid {
+    background: green;
+}
+
+input:invalid,
+textarea:invalid {
+    background: red;
+}
+
+  /* Cambios sobre la propia tabla */
+  table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  /* Espacio de relleno en celdas y cabeceras */
+  td,
+  th {
+    padding: 10px;
+  }
+  /* Modificación de estilos en cabeceras */
+  th {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  /* Modificación de estilos en celdas */
+  td {
+    text-align: center;
+    border-bottom: 2px solid #111;
+    color: #333;
+    font-size: 18px;
+  }
