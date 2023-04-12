@@ -6,6 +6,7 @@ body{
 img {
     width: 200px; 
     height: 200px; 
+    
 }
 
 
@@ -83,3 +84,4 @@ textarea:invalid {
     color: #333;
     font-size: 18px;
   }
+  
