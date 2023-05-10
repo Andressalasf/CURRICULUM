@@ -16,6 +16,9 @@ h1{
     background-color:white;
 
 }
+.contenedor.nav{
+    background-color: #0a3131;
+}
 header::before {
     content: "";
     display: block;
@@ -48,7 +51,7 @@ img{
     height: 200px;
 }
 .nav .enlaces-header a {
-    color:#446e6e;
+    color:#fff;
     text-decoration:none ;
     padding: 12px;
     border-radius: 10px;
