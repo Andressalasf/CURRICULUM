@@ -18,6 +18,7 @@ h1{
 }
 .contenedor.nav{
     background-color: #0a3131;
+    
 }
 header::before {
     content: "";
@@ -93,6 +94,7 @@ img{
     margin: 0 auto;
 }
 .contenido-header > img {
+    border-radius: 100%;
     width: 300px;
     height: 300px;
     margin-left: 50px;
@@ -225,6 +227,66 @@ img{
     color: #fff;
     transition: all ease-in-out .5s;
 }
+/* ################# Habilidades ############### */
+.section-habilidades{
+    background-color: #fff;
+}
+
+
+.content-habilidades{
+
+    display: flex;
+    flex-wrap:wrap ;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.section-habilidades .title{
+    width: 100%;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin:15px;
+}
+.habilidades{
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+
+}
+.habilidades:hover{
+    box-shadow: 0px 0px 20px gray;
+    transition: all ease-in-out .5s;
+}
+.habilidades a{
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+}
+
+.habilidades:hover{
+    color: #446e6e;
+}
+.habilidades i{
+    color: #446e6e;
+    font-size: 30px;
+    border-radius: 50%;
+    border-radius: 3px solid #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
 /*###########FOOTER##########*/
 footer{
     background: rgb(70, 70, 70);
@@ -327,6 +389,12 @@ footer{
        
        
     }
+    .content-education{
+        margin-top: 20px;
+    }
+    .content-education .education{
+        margin-bottom: 20px;
+    }
     h1{
         font-size: 30px;
     }
@@ -404,17 +472,19 @@ footer{
     }
     
     .contenido-header > img{
+
+        border-radius: 100%;
         width: 120px;
         height: 120px;
         animation: ease-in animacion 0.5s;
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .contenido-header >img, .textos-header{
         margin-left: 0px;
     }
   
     /* ########### SECTION EDUCACION ######*/
-    .education, .certificado, .partFooter{
+    .education, .habilidades, .certificado, .partFooter{
         width: 80%;
         margin-bottom: 15px;
 
@@ -423,6 +493,9 @@ footer{
     .certificado img{
         height: 130px;
     }
+   
+    
+    
 
   
      
